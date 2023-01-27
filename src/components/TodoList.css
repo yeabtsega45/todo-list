@@ -35,3 +35,12 @@ body {
     align-items: center;
     justify-content: center;
 }
+
+.taskBg .taskText {
+    flex: 1;
+}
+  
+.taskBg .done .taskText {
+    text-decoration: line-through;
+    opacity: 0.3;
+}
