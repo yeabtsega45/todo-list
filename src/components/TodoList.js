@@ -64,7 +64,15 @@ function TodoList() {
     setUpdateData("");
   };
 
-  return <div></div>;
+  return (
+    <div className="container App">
+      <br />
+      <br />
+      <h2>To Do List App (ReactJS)</h2>
+      <br />
+      <br />
+    </div>
+  );
 }
 
 export default TodoList;
