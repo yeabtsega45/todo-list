@@ -19,6 +19,13 @@ function TodoList() {
     }
   };
 
+  // Delete task
+  ///////////////////////////
+  const deleteTask = (id) => {
+    let newTasks = toDo.filter((task) => task.id !== id);
+    setToDo(newTasks);
+  };
+
   return <div></div>;
 }
 
