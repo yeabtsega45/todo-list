@@ -36,6 +36,9 @@ const ToDo = ({ toDo, markDone, setUpdateData, deleteTask }) => {
                         <FontAwesomeIcon icon={faPen} />
                       </span>
                     )}
+                    <span title="Delete" onClick={() => deleteTask(task.id)}>
+                      <FontAwesomeIcon icon={faTrashCan} />
+                    </span>
                   </div>
                 </div>
               </React.Fragment>
