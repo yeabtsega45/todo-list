@@ -23,3 +23,5 @@ const UpdateForm = ({ updateData, changeTask, updateTask, cancelUpdate }) => {
     </>
   );
 };
+
+export default UpdateForm;

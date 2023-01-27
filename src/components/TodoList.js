@@ -1,4 +1,7 @@
 import React from "react";
+import AddTaskForm from "./components/AddTaskForm.js";
+import UpdateForm from "./components/UpdateForm.js";
+import ToDo from "./components/ToDo.js";
 
 function TodoList() {
   // Tasks (ToDo List) State
