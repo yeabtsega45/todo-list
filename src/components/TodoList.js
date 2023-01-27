@@ -38,6 +38,12 @@ function TodoList() {
     setToDo(newTask);
   };
 
+  // Cancel update
+  ///////////////////////////
+  const cancelUpdate = () => {
+    setUpdateData("");
+  };
+
   return <div></div>;
 }
 
