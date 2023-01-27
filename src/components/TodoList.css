@@ -16,3 +16,22 @@ body {
     font-size: 22px;
     position: relative;
 }
+
+.taskBg div {
+    display: flex;
+    align-items: center;
+}
+  
+.taskNumber {
+    color: #999;
+    border: 1px solid #999;
+    border-radius: 50%;
+    width: 26px;
+    height: 26px;
+    display: flex;
+    text-align: center;
+    font-size: 14px;
+    margin-right: 8px;
+    align-items: center;
+    justify-content: center;
+}
