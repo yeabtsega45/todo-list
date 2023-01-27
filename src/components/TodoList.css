@@ -60,3 +60,11 @@ body {
     cursor: pointer;
     color: #00ff89;
 }
+
+.taskBg .iconsWrap span:hover {
+    color: yellow;
+}
+  
+.mr-20 {
+    margin-right: 20px;
+}
