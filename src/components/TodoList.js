@@ -55,6 +55,15 @@ function TodoList() {
     setUpdateData(newEntry);
   };
 
+  // Update task
+  ///////////////////////////
+  const updateTask = () => {
+    let filterRecords = [...toDo].filter((task) => task.id !== updateData.id);
+    let updatedObject = [...filterRecords, updateData];
+    setToDo(updatedObject);
+    setUpdateData("");
+  };
+
   return <div></div>;
 }
 
