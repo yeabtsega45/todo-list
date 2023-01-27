@@ -71,6 +71,21 @@ function TodoList() {
       <h2>To Do List App (ReactJS)</h2>
       <br />
       <br />
+
+      {updateData && updateData ? (
+        <UpdateForm
+          updateData={updateData}
+          changeTask={changeTask}
+          updateTask={updateTask}
+          cancelUpdate={cancelUpdate}
+        />
+      ) : (
+        <AddTaskForm
+          newTask={newTask}
+          setNewTask={setNewTask}
+          addTask={addTask}
+        />
+      )}
     </div>
   );
 }
