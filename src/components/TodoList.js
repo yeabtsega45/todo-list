@@ -89,6 +89,17 @@ function TodoList() {
           addTask={addTask}
         />
       )}
+
+      {/* Display ToDos */}
+
+      {toDo && toDo.length ? "" : "No Tasks..."}
+
+      <ToDo
+        toDo={toDo}
+        markDone={markDone}
+        setUpdateData={setUpdateData}
+        deleteTask={deleteTask}
+      />
     </div>
   );
 }
