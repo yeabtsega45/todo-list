@@ -14,6 +14,14 @@ const ToDo = ({ toDo, markDone, setUpdateData, deleteTask }) => {
                     <span className="taskNumber">{index + 1}</span>
                     <span className="taskText">{task.title}</span>
                   </div>
+                  <div className="iconsWrap">
+                    <span
+                      title="Completed / Not Completed"
+                      onClick={(e) => markDone(task.id)}
+                    >
+                      <FontAwesomeIcon icon={faCircleCheck} />
+                    </span>
+                  </div>
                 </div>
               </React.Fragment>
             );
