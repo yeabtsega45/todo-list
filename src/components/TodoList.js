@@ -44,6 +44,17 @@ function TodoList() {
     setUpdateData("");
   };
 
+  // Change task for update
+  ///////////////////////////
+  const changeTask = (e) => {
+    let newEntry = {
+      id: updateData.id,
+      title: e.target.value,
+      status: updateData.status ? true : false,
+    };
+    setUpdateData(newEntry);
+  };
+
   return <div></div>;
 }
 
