@@ -1,5 +1,4 @@
 import React from "react";
-import "./TodoList.css";
 
 const AddTaskForm = ({ newTask, setNewTask, addTask }) => {
   return (

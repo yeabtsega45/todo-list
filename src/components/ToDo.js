@@ -1,5 +1,4 @@
 import React from "react";
-import "./TodoList.css";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {

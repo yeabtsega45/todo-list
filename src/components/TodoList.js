@@ -3,6 +3,7 @@ import { useState } from "react";
 import AddTaskForm from "./AddTaskForm";
 import UpdateForm from "./UpdateForm.js";
 import ToDo from "./ToDo.js";
+import "bootstrap/dist/css/bootstrap.min.css";
 import "./TodoList.css";
 
 function TodoList() {
