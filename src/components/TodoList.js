@@ -74,7 +74,7 @@ function TodoList() {
     <div className="container App">
       <br />
       <br />
-      <h2>To Do List App (ReactJS)</h2>
+      <h2>Yeabtsega's To Do List App</h2>
       <br />
       <br />
 
