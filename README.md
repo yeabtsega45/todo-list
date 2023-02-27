@@ -1,6 +1,6 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-You can visit the [Live Demo Website](https://amanworku.github.io/Todo-List-React/).
+You can visit the [Live Demo Website](https://mellifluous-puppy-5d121c.netlify.app/).
 
 # Getting Started with Create React App
 
