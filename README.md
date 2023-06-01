@@ -1,6 +1,6 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-You can visit the [Live Demo Website](https://mellifluous-puppy-5d121c.netlify.app/).
+You can visit the [Live Demo Website](https://yeabtsega-todo-list.netlify.app).
 
 # Getting Started with Create React App
 
